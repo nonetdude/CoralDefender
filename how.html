@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coral Defender - How it Works</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .steps {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .step-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .step-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+        .fancy-line {
+            border: none;
+            height: 6px;
+            background: linear-gradient(to right, #0914e7, #d406db, #ff0000);
+            border-radius: 3px;
+            width: 80%;
+            margin: 50px auto;
+        }
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: rgba(0, 0, 0, 0.3);
+            font-size: 0.9rem;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>How Our Model Works</h1>
+        <p><a href="index.html">← Back to Home</a></p>
+    </header>
+
+    <section>
+        <div class="steps">
+            <div class="step-card">
+                <h3>Step 1: Sensing the Water</h3>
+                <p>Using sensors, our model continuously collects essential data such as pH, salinity, temperature, and images to assess water quality and marine ecosystem health in real-time.</p>
+            </div>
+            <div class="step-card">
+                <h3>Step 2: Data Processing</h3>
+                <p>Collected data is processed through algorithms that detect anomalies, trends, and pollution risks, ensuring users receive accurate and actionable insights into the water conditions.</p>
+
+            </div>
+            <div class="step-card">
+                <h3>Step 3: Visualization</h3>
+                <p>All collected and processed data, including images, is presented through intuitive dashboards and user-friendly formats, allowing both experts and the public to easily interpret water health status and take action if needed.</p>
+
+            </div>
+            <div class="step-card">
+                <h3>Step 4: Community Awareness</h3>
+                <p>Our model raises community awareness by translating complex data into simple visuals and alerts, inspiring local citizens, schools, and organizations to engage in protecting water bodies and marine life through informed actions.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="fancy-line"></div>
+
+    <footer>
+        2025 Coral Defender | Understanding is the first step to change.
+    </footer>
+
+</body>
+</html>

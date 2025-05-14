@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Pictures - Coral Defender</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            font-size: 2.8rem;
+        }
+        header p {
+            font-size: 1.1rem;
+            color: #ddd;
+        }
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery img {
+            max-width: 300px;
+            border-radius: 10px;
+            border: 3px solid #fff;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        }
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background-color: rgba(0, 0, 0, 0.4);
+            color: #bbb;
+            font-size: 0.9rem;
+        }
+        a {
+            color: #ddd;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Project Picture Gallery</h1>
+        <p>Real-time photos collected by our model</p>
+        <p><a href="index.html">← Back to Home</a></p>
+    </header>
+
+    <section>
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="img1.jpg" alt="Underwater life example 1">
+            <img src="img2.jpg" alt="Underwater life example 2">
+            <img src="img3.jpg" alt="Pollution detected example 3">
+        </div>
+    </section>
+
+    <footer>
+        2025 Coral Defender | Project Media & Collected Pictures
+    </footer>
+
+</body>
+</html>
